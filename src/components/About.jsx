@@ -6,7 +6,7 @@ import { styles } from "../styles";
 import { services } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
-import { jeff } from "../assets";
+import { manvith } from "../assets";
 const ServiceCard = ({ index, title, icon }) => (
   <Tilt className="xs:w-[250px] w-full">
     <div
@@ -43,30 +43,58 @@ const About = () => {
         <h2 className={`${styles.sectionHeadText} animate-text bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent font-black`}>Overview.</h2>
       </div>
       <div className="flex items-center min-[1000px]:flex-row flex-col-reverse">
-        <p
-          variants={fadeIn("", "", 0.1, 1)}
-          className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
-        >
-          Hello! I'm Jeff Jiang, a New York-based Full-Stack Developer
-          proficient in an array of modern technologies including Python 3,
-          JavaScript ES6+, SQL, Django 4, MongoDB, Node.js, React, and more. I'm
-          passionate about creating dynamic, efficient, and user-friendly web
-          applications. I have hands-on experience in developing e-commerce
-          platforms, utilizing technologies such as Next.js, Strapi, Tailwind,
-          Firebase, and Redux. I am also experienced in managing the full
-          project lifecycle from setup to deployment. My journey in tech is
-          supported by my prior experiences, including my time as a Police
-          Officer at NYPD and a Restaurant Manager, which honed my skills in
-          teamwork, problem-solving, and operations management. Feel free to
-          explore my projects and get in touch at{" "}
-          <a
-            href="mailto:jeff.jiang13@gmail.com"
-            className="animate-text bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent font-black"
-          >
-            jeff.jiang13@gmail.com.
-          </a>{" "}
-          I'm always open to new opportunities and collaborations!{" "}
-        </p>
+        <div className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]">
+          <p>
+            Hello! I'm <strong>MANVITH</strong> — an AI & Data Science Undergraduate and an aspiring
+            software engineer based in Mangalore, Haleangadi. I work with Python,
+            machine learning libraries and web technologies to build data-driven
+            solutions and intuitive web experiences. My current focus is on
+            projects that combine AI with practical applications, such as crop
+            price prediction and computer-vision tools for public safety.
+          </p>
+
+          <div className="mt-4">
+            <h3 className="text-white font-bold">Education</h3>
+            <p className="text-secondary">B.E. in Artificial Intelligence & Data Science — AJ Institute of Engineering & Technology (Expected 2027)</p>
+          </div>
+
+          <div className="mt-4">
+            <h3 className="text-white font-bold">Skills</h3>
+            <ul className="list-disc pl-5 text-secondary">
+              <li><strong>Programming Languages:</strong> C, C++, Java, Python</li>
+              <li><strong>Databases:</strong> MySQL, MongoDB, DBMS</li>
+              <li><strong>Data & Visualization:</strong> Excel, Power BI, Tableau</li>
+              <li><strong>Web:</strong> HTML, CSS</li>
+            </ul>
+          </div>
+
+          <div className="mt-4">
+            <h3 className="text-white font-bold">Certifications</h3>
+            <ul className="list-disc pl-5 text-secondary">
+              <li>NPTEL – The Joy of Computing Using Python</li>
+              <li>Microsoft – AI Innovation 2025 Challenge</li>
+              <li>Microsoft – Azure Learning Challenge</li>
+              <li>Great Learning – Artificial Intelligence Project</li>
+              <li>Coursera – Creating Dashboards and Storytelling with Tableau</li>
+            </ul>
+          </div>
+
+          <div className="mt-4">
+            <p>
+              Explore my projects and get in touch at{' '}
+              <a
+                href="mailto:manvithmanu225@gmail.com"
+                className="animate-text bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent font-black"
+              >
+                manvithmanu225@gmail.com
+              </a>
+              . Phone: <a className="text-secondary">+91 8618153704</a>
+            </p>
+            <p className="mt-2">
+              GitHub: <a href="https://github.com/MANVITH14" target="_blank" rel="noreferrer" className="text-secondary">github.com/MANVITH14</a> — LinkedIn: <a href="https://www.linkedin.com/in/manvith-manvith-960b3b251" target="_blank" rel="noreferrer" className="text-secondary">manvith-manvith-960b3b251</a>
+            </p>
+          </div>
+        </div>
         <Tilt className="xs:w-[350px] xs:h-[350px] w-full h-full m-auto max-[1000px]:my-14">
           <div
             variants={fadeIn("", "", 0.5, 1)}
@@ -77,8 +105,8 @@ const About = () => {
               className="bg-tertiary rounded-[20px] min-h-[250px] flex justify-evenly items-center flex-col overflow-hidden"
             >
               <img
-                src={jeff}
-                alt="jeff"
+                src={manvith}
+                alt="manvith"
                 className="w-full h-full object-contain"
               />
             </div>

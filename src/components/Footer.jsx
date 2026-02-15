@@ -20,7 +20,7 @@ const Footer = () => {
           <img src={LOGO2} alt="logo" className="w-28 h-28 object-contain" />
         </Link>
         <p className="text-secondary text-[17px] leading-[30px] text-center select-none">
-          {new Date().getFullYear()} &copy; Created by Jeff Jiang. All rights
+          {new Date().getFullYear()} &copy; Created by MANVITH. All rights
           reserved.
         </p>
       </div>

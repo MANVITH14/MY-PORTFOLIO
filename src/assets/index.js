@@ -37,7 +37,7 @@ import tripguide from "./tripguide.png";
 import movie from "./movie.png"
 import shop from "./shop.png"
 import youtube from "./youtube.png"
-import jeff from "./jeff.jpg"
+import manvith from "./ChatGPT Image Feb 15, 2026, 12_01_54 PM.png"
 import liveLink from "./liveLink.png"
 import portfolio15 from "./portfolio15.png"
 import portfolio16 from "./portfolio16.png"
@@ -86,7 +86,7 @@ export {
   movie,
   shop,
   youtube,
-  jeff,
+  manvith,
   python,
   django,
   postgres,

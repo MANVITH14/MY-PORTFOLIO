@@ -224,6 +224,32 @@ const experiences = [
   // },
 ];
 
+const education = [
+  {
+    title: "B.E. in Artificial Intelligence & Data Science",
+    institution: "AJ Institute of Engineering & Technology",
+    icon: code1,
+    iconBg: "#383E56",
+    date: "2023 - Expected 2027",
+    points: [
+      "Pursuing B.E. in AI & Data Science with strong focus on machine learning and data engineering.",
+      "Coursework: Machine Learning, Data Structures & Algorithms, Database Systems, Neural Networks.",
+      "Active in coding clubs and hands-on projects involving ML pipelines and model deployment.",
+    ],
+  },
+  {
+    title: "Pre-University Course (PUC)",
+    institution: "Shree Narayanaguru PU College",
+    icon: code1,
+    iconBg: "#E6DEDD",
+    date: "2021 - 2023",
+    points: [
+      "Completed PUC (2021-2023) with emphasis on science subjects.",
+      "Prepared foundation in mathematics and physics for engineering studies.",
+    ],
+  },
+];
+
 const testimonials = [
   {
     testimonial:
@@ -252,413 +278,86 @@ const testimonials = [
 ];
 const imageProjects = [
   {
-    id: 1,
+    id: 0,
     image: portfolio15,
-    url: "https://madamcoon.com/",
-    title: "Madamcoon Maine Coon Cattery NYC",
-    description: "",
+    url: "https://github.com/MANVITH14/Crop-Price-Prediction",
+    title: "Crop Price Prediction",
+    description: "Predicts crop prices using historical agricultural data. Built with Python and Machine Learning.",
+  },
+  {
+    id: 1,
+    image: portfolio16,
+    url: "",
+    title: "Student Attendance Tracking Website",
+    description: "GUI-based attendance management system built using Python and Tkinter. Features: mark, update and view attendance.",
   },
   {
     id: 2,
-    image: portfolio16,
-    url: "https://chiquechickshop.com/",
-    title: "ChiqueChickShop",
-    description: "",
-  },
-  {
-    id: 3,
     image: portfolio17,
-    url: "https://jj-tailortech.vercel.app/",
-    title: "TailorTech",
-    description: "",
-  },
-  {
-    id: 4,
-    image: shop,
-    url: "https://jj-ecomstore.vercel.app/",
-    title: "E-commerce platform",
-    description: "",
-  },
-  {
-    id: 5,
-    image: movie,
-    url: "https://jj-movie-app.netlify.app/",
-    title: "Movie app",
-    description: "",
-  },
-  {
-    id: 6,
-    image: youtube,
-    url: "https://jj-youtube-clone.netlify.app/",
-    title: "Youtube clone",
-    description: "",
-  },
-  {
-    id: 7,
-    image: ig,
-    url: "https://quicktele.netlify.app/",
-    title: "Instagram clone",
-    description: "",
-  },
-  {
-    id: 8,
-    image: tiktok,
-    url: "https://jj-tiktok.vercel.app/",
-    title: "TikTok clone",
-    description: "",
-  },
-  {
-    id: 9,
-    image: linktree,
-    url: "https://jj-linktri.vercel.app/",
-    title: "LinkTree clone",
-    description: "",
-  },
-  {
-    id: 10,
-    image: smartrep,
-    url: "https://jj-smartrep.vercel.app/",
-    title: "SmartRep AI",
-    description: "",
-  },
-  {
-    id: 11,
-    image: zapflow,
-    url: "https://jj-zapflow.vercel.app/",
-    title: "ZapFlow",
-    description: "",
-  },
-  {
-    id: 12,
-    image: matrixai,
-    url: "https://jj-nextgen-ai.vercel.app/",
-    title: "Matrix AI",
-    description: "",
-  },
-  {
-    id: 13,
-    image: notable,
-    url: "https://jj-notable.up.railway.app/",
-    title: "Notable",
-    description: "",
-  },
-  {
-    id: 14,
-    image: beeclone,
-    url: "https://jj-newsletter.vercel.app/",
-    title: "Beeclone",
-    description: "",
+    url: "",
+    title: "Finding Missing Person Using AI",
+    description: "AI-powered computer vision project using age and gender detection to assist identification using visual data.",
   },
 ];
 
 const projects = [
   {
-    name: "SmartRep AI",
+    name: "Crop Price Prediction",
     description:
-      "SmartRep AI is an advanced AI chatbot designed to streamline customer interactions, book appointments, process payments, and manage leads. It seamlessly integrates with any website, offering a customizable interface and a suite of powerful features to enhance user experience and business operations.",
+      "Predicts crop prices using historical agricultural data. Built using Python and Machine Learning algorithms. Focus on data preprocessing, model training, and prediction accuracy.",
     tags: [
       {
-        name: "Next.js",
+        name: "Python",
         color: "blue-text-gradient",
       },
       {
-        name: "Neon",
+        name: "Machine Learning",
         color: "green-text-gradient",
       },
       {
-        name: "Typescript",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: smartrep,
-    source_code_link: "https://github.com/jeffjiang13/smartrep-ai",
-    liveUrl: "https://jj-smartrep.vercel.app/",
-  },
-  {
-    name: "Notable",
-    description:
-      "Experience unparalleled team collaboration with Notable, a cutting-edge SaaS platform designed to enhance productivity dynamically. Built with Next.js 13 and adorned with the latest technologies like Stripe for secure payments, Drizzle ORM for efficient data management, Tailwind CSS for intuitive styling, Supabase for a scalable backend, and WebSockets for real-time interactions, Notable offers a modern workspace for teams and individuals to thrive in real time. Perfect for startups and large enterprises alike, Notable seamlessly integrates advanced collaboration tools into your daily operations, setting a new standard for what a collaborative platform can achieve.",
-    tags: [
-      {
-        name: "Next.js",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Typescript",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: notable,
-    source_code_link: "https://github.com/jeffjiang13/notable",
-    liveUrl: "https://jj-notable.up.railway.app/",
-  },
-  {
-    name: "ZapFlow",
-    description:
-      "ZapFlow is a SaaS Automation Builder, a powerful and versatile platform designed to automate and streamline your business processes. Built from the ground up without relying on integration libraries, this builder offers a seamless and customizable experience for creating automation flows. Whether you are a small business or a large enterprise, our builder has the features you need to connect various services and automate your workflows efficiently.",
-    tags: [
-      {
-        name: "Next.js",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Neon",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: zapflow,
-    source_code_link: "https://github.com/jeffjiang13/saas-automation",
-    liveUrl: "https://jj-zapflow.vercel.app/",
-  },
-  {
-    name: "Beeclone",
-    description:
-      "This project is a fullstack clone of Linktree built with Next.js, Tailwind CSS, and MongoDB. It allows users to create a personalized page with links to their content across the internet, customize their profile, and view analytics on their links.",
-    tags: [
-      {
-        name: "Next.js",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "MongoDB",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: beeclone,
-    source_code_link: "https://github.com/jeffjiang13/saas-newsletter",
-    liveUrl: "https://jj-newsletter.vercel.app/",
-  },
-  {
-    name: "Matrix AI",
-    description:
-      "MatrixAI is a comprehensive SaaS AI Platform with a modern tech stack including Next.js 13, React, Tailwind CSS, Prisma, and Stripe. This platform is designed to offer a wide range of AI-powered tools, from image and video generation to music creation and conversational AI. Featuring a sleek Tailwind design, full responsiveness, and a variety of authentication methods, this platform is equipped to handle the needs of diverse users.",
-    tags: [
-      {
-        name: "Next.js",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Prisma",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: matrixai,
-    source_code_link: "https://github.com/jeffjiang13/MatrixAI",
-    liveUrl: "https://jj-nextgen-ai.vercel.app/",
-  },
-  {
-    name: "LinkTri",
-    description:
-      "This project is a fullstack clone of Linktree built with Next.js, Tailwind CSS, and MongoDB. It allows users to create a personalized page with links to their content across the internet, customize their profile, and view analytics on their links.",
-    tags: [
-      {
-        name: "Next.js",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "MongoDB",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: linktree,
-    source_code_link: "https://github.com/jeffjiang13/LinkTree",
-    liveUrl: "https://jj-linktri.vercel.app/",
-  },
-  {
-    name: "Instagram Clone,",
-    description:
-      "The IG App 2024 is a comprehensive clone of the Instagram platform, designed to replicate the core functionalities and visual appeal of the original app with added enhancements. Developed using modern web technologies such as Vite, React.js, and Tailwind CSS, this project emphasizes a responsive and eye-catching user interface, ensuring optimal performance and user experience across various devices, specifically optimized for screens with a minimum width of 375px.",
-    tags: [
-      {
-        name: "Vite.js",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "React.js",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: ig,
-    source_code_link: "https://github.com/jeffjiang13/IG-2.0",
-    liveUrl: "https://quicktele.netlify.app/",
-  },
-  {
-    name: "TikTok Clone",
-    description:
-      "Explore the modern web with our TikTok Clone Application! This project encompasses a full suite of features including Google Authentication, video uploads, publishing, sharing, commenting, liking, category filtering, advanced search functionalities, profile pages, suggested accounts, and a custom responsive design.",
-    tags: [
-      {
-        name: "TypeScript",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "React.js",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Sanity",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tiktok,
-    source_code_link: "https://github.com/jeffjiang13/tiktok",
-    liveUrl: "https://jj-tiktok.vercel.app/",
-  },
-  {
-    name: "TailorTech",
-    description:
-      "This comprehensive SaaS platform leverages the latest technologies including Next.js 14, Bun, Stripe Connect, Prisma, MySQL, and Tailwind to offer a robust solution for building websites, managing projects, and handling financial transactions seamlessly. Designed for agencies, freelancers, and businesses, our platform simplifies the digital landscape through an intuitive interface and powerful features.",
-    tags: [
-      {
-        name: "Next.js",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Bun",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Prisma",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: portfolio17,
-    source_code_link: "https://github.com/jeffjiang13/tailortech",
-    liveUrl: "https://jj-tailortech.vercel.app/",
-  },
-  {
-    name: "ChiqueChickShop",
-    description:
-      "Engineered the ChiqueChickShop, a fully responsive e-commerce platform, from the ground up. This project entailed designing an inviting online shopping experience complete with intuitive navigation and streamlined user flows. Focused on integrating secure payment processing systems to ensure transactional safety. Implemented best practices in web development to enhance site responsiveness across all devices. Due to client confidentiality, project specifics and GitHub source are kept private.",
-    tags: [
-      {
-        name: "React.js",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "JavaScript",
-        color: "green-text-gradient",
-      },
-      {
-        name: "CSS",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: portfolio16,
-    source_code_link: "https://github.com/jeffjiang13",
-    liveUrl: "https://chiquechickshop.com/",
-  },
-  {
-    name: "Madamcoon Maine Coon Cattery NYC",
-    description:
-      "Led the comprehensive development of the Madamcoon website, from concept to launch, focusing on crafting a responsive design that adapts seamlessly across devices. Enhanced user interaction and experience by implementing a user-friendly interface and streamlined navigation. Integrated robust content management systems for easy content updates and management. Employed advanced SEO strategies to maximize online visibility and search rankings. Project details are confidential with GitHub source kept private for client security.",
-    tags: [
-      {
-        name: "React.js",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "JavaScript",
-        color: "green-text-gradient",
-      },
-      {
-        name: "CSS",
+        name: "Pandas",
         color: "pink-text-gradient",
       },
     ],
     image: portfolio15,
-    source_code_link: "https://github.com/jeffjiang13",
-    liveUrl: "https://madamcoon.com/",
+    source_code_link: "https://github.com/MANVITH14/Crop-Price-Prediction",
+    liveUrl: "",
   },
   {
-    name: "Movie App",
+    name: "Student Attendance Tracking Website",
     description:
-      "This app is an online database of information related to movies. Users can search for movies and learn about movies, as well as the cast of the movie. Navigating through the application is made simple with help of a AI voice chatbot. Also provides ratings of movies. Tech stack: JavaScript tools including React.js, Redux, Material UI, Alan AI, and more.",
+      "GUI-based attendance management system. Built using Python and Tkinter. Features: mark, update, view attendance; focus on automation and usability.",
     tags: [
       {
-        name: "React.js",
+        name: "Python",
         color: "blue-text-gradient",
       },
       {
-        name: "JavaScript",
+        name: "Tkinter",
         color: "green-text-gradient",
       },
-      {
-        name: "Material UI",
-        color: "pink-text-gradient",
-      },
     ],
-    image: movie,
-    source_code_link: "https://github.com/jeffjiang13/movie-app",
-    liveUrl: "https://jj-movie-app.netlify.app/",
+    image: portfolio16,
+    source_code_link: "",
+    liveUrl: "",
   },
   {
-    name: "Ecommerce App",
+    name: "Finding Missing Person Using AI",
     description:
-      "Fully responsive, full-stack e-commerce application with payments. It includes advanced React and Next.js best practices, and integrates Stripe for payment processing. The content of the app can be managed using Sanity, which allows for dynamic modifications of the store's home page and product details. The app is mobile-responsive and includes features such as adding and editing products, advanced card functionalities, and a complete checkout process.",
+      "AI-powered computer vision project using age and gender detection. Designed to assist identification using visual data.",
     tags: [
       {
-        name: "Next.js",
+        name: "Computer Vision",
         color: "blue-text-gradient",
       },
       {
-        name: "Stripe",
+        name: "OpenCV",
         color: "green-text-gradient",
       },
-      {
-        name: "Sanity",
-        color: "pink-text-gradient",
-      },
     ],
-    image: shop,
-    source_code_link: "https://github.com/jeffjiang13/ecommerce_sanity",
-    liveUrl: "https://jj-ecomstore.vercel.app/",
-  },
-  {
-    name: "YouTube Clone",
-    description:
-      "A responsive React JS application consisting of stunning video sections, custom categories, channel pages, and, most importantly, you can play videos straight from this app!",
-    tags: [
-      {
-        name: "React.js",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "JavaScript",
-        color: "green-text-gradient",
-      },
-      {
-        name: "RAPIDAPI",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: youtube,
-    source_code_link: "https://github.com/jeffjiang13/youtube-clone",
-    liveUrl: "https://jj-youtube-clone.netlify.app/",
+    image: portfolio17,
+    source_code_link: "",
+    liveUrl: "",
   },
 ];
 
@@ -666,6 +365,7 @@ export {
   services,
   technologies,
   experiences,
+  education,
   testimonials,
   projects,
   imageProjects,

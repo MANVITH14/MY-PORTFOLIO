@@ -5,7 +5,7 @@ import { styles } from "../styles"
 import { SectionWrapper } from "../hoc"
 import { fadeIn, textVariant } from "../utils/motion"
 import { CVDuncan } from "../constants"
-import CVDoc from "../assets/jeff_jiang.pdf"
+import CVDoc from "../MANVITH RESUME .pdf"
 
 const Card = ({ index, text, name, designation, company, image }) => (
   <div className="bg-black-200 p-10 rounded-3xl xs:w-[320px] w-full select-none">
@@ -15,7 +15,7 @@ const Card = ({ index, text, name, designation, company, image }) => (
       <div className="mt-7 flex justify-between items-center gap-1">
 
         <img
-          src={image}
+          src={https://vscode.dev/github/jeffjiang13/3d-portfolio/blob/main-images/image-1771137406120.png}
           alt={`feedback_by-${name}`}
           className="w-10 h-10 rounded-full object-cover"
         />
@@ -31,7 +31,7 @@ const CV = () => {
         <div className="flex min-[850px]:flex-row flex-col justify-around items-center">
             <img src={CVDuncan} alt="CVDuncan" className="w-[250px]" />
 
-            <a href={CVDoc} download>
+            <a href={CVDoc} download="manvith_resume.pdf">
               <button className="bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary text-[21px]">
                 Download CV
               </button>
