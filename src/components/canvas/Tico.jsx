@@ -1,22 +1,16 @@
 import React, { Suspense, useEffect, useState } from "react";
 import { Canvas } from "@react-three/fiber";
-import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
+import { OrbitControls, Preload } from "@react-three/drei";
 import CanvasLoader from "../Loader";
 
-const Ticofab = ({ isMobile }) => {
-  const tico = useGLTF("./astro/scene.gltf");
-
+const Ticofab = () => {
   return (
     <mesh>
-      <hemisphereLight intensity={0.2} groundColor="black" />
+      <hemisphereLight intensity={0.3} groundColor="black" />
       <pointLight intensity={1} />
 
-      <primitive
-        object={tico.scene}
-        scale={isMobile ? [1, 1, 1] : [1.4, 1.4, 1.4]}   // ✅ FIXED SCALE
-        position={isMobile ? [0, -2.5, 0] : [0, -3, -1]}
-        rotation={[-0.01, -0.5, -0.1]}
-      />
+      <boxGeometry args={[2, 2, 2]} />
+      <meshStandardMaterial color="orange" />
     </mesh>
   );
 };
@@ -41,18 +35,16 @@ const TicofabCanvas = () => {
 
   return (
     <Canvas
-      shadows={false}                 // ✅ DISABLED SHADOWS
-      dpr={1}                         // ✅ SAFE DPR
-      camera={{ position: [18, 5, 5], fov: 25 }}
-      gl={{ antialias: false }}       // ✅ REMOVED preserveDrawingBuffer
+      shadows={false}
+      dpr={1}
+      camera={{ position: [5, 5, 5], fov: 45 }}
+      gl={{ antialias: false }}
     >
       <Suspense fallback={<CanvasLoader />}>
         <OrbitControls
           autoRotate
           autoRotateSpeed={1.5}
           enableZoom={false}
-          maxPolarAngle={Math.PI / 2}
-          minPolarAngle={Math.PI / 2}
         />
         <Ticofab isMobile={isMobile} />
       </Suspense>
